@@ -1,0 +1,96 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+/* NAVIGATION MENUBAR */
+#navbar{
+    flex-direction: column;
+}
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+}
+
+/* HOME SECTION */
+#home{
+    height: 638px;
+    padding: 3px 46px;
+}
+#home::before{
+    height: 666px;
+}
+#home p{
+    font-size: 15px;
+}
+/* ^^^^^%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+#services::before{
+    height: 1072px;
+}
+/* ^^^^^%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+
+/* OUR SERVICES */
+#services{
+    flex-direction: column;
+    margin: 0px;
+}
+
+.services-container{
+    /* height: 860px; */
+    height: 1025px;
+}
+#services .box{
+    margin: 10px 25px;
+    padding: 16px 1px;
+}
+#services .box img{
+    height: auto;
+    width: 145px;
+}
+#services .box p{
+    font-size: 12pxpx;
+}
+#services .box h2{
+    font-size: 21px;
+}
+
+
+/* OUR CLIENTS */
+#clients{
+    flex-wrap: wrap;
+}
+#clients img {
+    width: 64px;
+    padding: 0px;
+    height: auto;
+    margin: 0px 1px;
+}
+/* #clients img {
+    width: 75px;
+    height: auto;
+    margin: -30px -8px;
+} */
+
+.client-item {
+    padding: 32px 27px;
+    margin: 0px 0px;
+}
+
+#client-section {
+    height: 400px;
+}
+
+/* CONTACT SECTION */
+#contact-box input, #contact-box textarea{
+    padding: 3px 10px;
+    /* border: 5px; */
+    border: 2px solid black;
+    width: 200px;
+}
+
+/* FOOTER SECTION */
+
+/* UTILITY CLASSES */
+.h-primary{
+    font-size: 26px;
+}

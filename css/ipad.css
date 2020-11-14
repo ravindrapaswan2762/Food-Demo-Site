@@ -1,0 +1,15 @@
+.services-container{
+    /* height: 1025px; */
+    height: 820px;
+}
+#client-section {
+    height: 545px;
+}
+.client-item {
+    padding: 60px 60px;
+}
+/* #clients img {
+    width: 118px;
+    height: auto;
+    margin: -45px 72px;
+} */
