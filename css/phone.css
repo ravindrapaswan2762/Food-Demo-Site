@@ -41,7 +41,7 @@ html{
 }
 #services .box{
     margin: 10px 25px;
-    padding: 16px 1px;
+    padding: 16px 0px;
 }
 #services .box img{
     height: auto;
