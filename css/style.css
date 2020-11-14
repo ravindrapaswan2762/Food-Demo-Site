@@ -128,7 +128,7 @@ button{
 #services .box{
     border: 2px solid brown;
     margin: -24px 3px;
-    pad: 10px;
+    padding: 10px;
     border-radius: 20px;
     background-color: rgb(214, 214, 214);
 }
@@ -141,8 +141,8 @@ button{
     text-align: center;
 }
 #services .box p{
-    margin: 0px;
-    padding: 5px;
+    margin: 1px;
+    padding: 1px;
 }
 
 
@@ -198,7 +198,7 @@ button{
 }
 #contact-box input, #contact-box textarea{
     width: 100%;
-    pad: 0.5rem;
+    padding: 0.5rem;
     border-radius: 5px;
     font-size: 1.3rem;
 
@@ -216,7 +216,7 @@ button{
 footer{
     background-color: black;
     color: white;
-    pad: 9px 20px;
+    padding: 9px 20px;
 }
 
 
